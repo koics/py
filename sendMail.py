@@ -14,8 +14,8 @@ smtpobj = smtplib.SMTP('smtp.gmail.com', 587)
 smtpobj.ehlo()
 smtpobj.starttls()
 smtpobj.ehlo()
-smtpobj.login('koic.sato@gmail.com','jpn36483648')
-smtpobj.sendmail('koic.sato@gmail.com','k0o9i0c5h5i3r9o3s6a9t1o@docomo.ne.jp',
+smtpobj.login('from_adress@gmail.com','password')
+smtpobj.sendmail('from_adress@gmail.com','to_adress@xxx.com',
                 """Hello!!
                 I'm Python
                 """)
